@@ -1,0 +1,619 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+body {
+    font-family: Pretendard;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* header 시작~! */
+#header {
+    height: 119px;
+}
+
+.header_center {
+    width: 1400px;
+    height: 119px;
+
+    margin: 0 auto;
+}
+
+.h_logo {
+    margin-left: 29px;
+    margin-top: 24px;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    display: block;
+    padding: 45px 40px;
+    font-size: 20px;
+}
+
+.gnb li:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    /* 부드러운 전환을 위해 추가 */
+    color: #585757;
+}
+
+.gnb li:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    /* 부드러운 전환을 위해 추가 */
+    color: #585757;
+}
+
+.gnb a.on {
+    color: #0073e6; /* 강조하고 싶은 색상 */
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.backtop{position: fixed;
+    bottom: 30px;
+    right: 30px;}
+
+    .backtop {
+        transition: transform 0.3s ease;
+    }
+    .backtop:hover {
+        transform: scale(1.1);
+    }
+    
+
+
+/* header끝
+
+/* banner 시작 */
+#banner {
+    height: 845px;
+    background-image: url(../image/sub-bannner-video.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    width: 100%;
+}
+
+#banner img {
+    margin-top: 350px;
+}
+
+/* 배너 끝 */
+
+
+/* brand story 시작 */
+#brand_story {
+    height: 1033px;
+    background-color: #000;
+}
+
+.brand_story_center {
+    width: 1400px;
+    height: 1473px;
+    color: #fff;
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.brand_story_center h1 {
+    font-size: 51px;
+    color: #fff;
+    padding-top: 139px;
+
+}
+
+.brand_story_center p {
+    margin-bottom: 41px;
+    line-height: 41px;
+}
+
+.text_box {
+    margin-left: 700px;
+    margin-top: 0;
+    width: 533px;
+    height: 851px;
+    margin-bottom: 89px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+
+.count1 {
+    font-size: 89px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 690px;
+    right: 530px;
+    text-transform: uppercase;
+
+}
+
+
+.count2 {
+    font-size: 89px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 680px;
+    right: 280px;
+
+}
+
+.c_pro_img {
+    position: absolute;
+    bottom: 590px;
+    right: 470px;
+}
+
+.y_expri_img {
+    position: absolute;
+    bottom: 590px;
+    right: 170px;
+}
+
+.brand_story_center h1,
+.brand_story_center .text_box {
+    color: #000;
+    /* 기본 색상은 검정색 */
+    transition: color 5s ease;
+    /* 색상이 부드럽게 전환되도록 애니메이션 */
+}
+
+/* brand story 끝! */
+
+/* our service 시작!!! */
+
+#our_service {
+    height: 3812px;
+    
+}
+
+
+.our_h1 {
+    width: 1400px;
+    height: 328px;
+    margin: 0 auto;
+
+}
+
+.our_h1 h1 {
+    font-size: 160px;
+    padding-top: 70px;
+}
+
+.our_section1 {
+    height: 1183px;
+    letter-spacing: 3px;
+    
+}
+
+.content_1 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_flow_1 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_1_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+
+.text_flow_1 {
+    font-size: 67px;
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 183px;
+    
+}
+
+.text_flow_2 {
+    font-size: 67px;
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 183px;
+    
+}
+
+.text_flow_3 {
+    font-size: 67px;
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 183px;
+    
+}
+
+.track1 {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    animation: flow 100s linear infinite reverse;
+    white-space: nowrap;
+    opacity: 80%;
+    /* 한줄을 그대로 보존해 주는 것 */
+    
+}
+
+.track2 {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    animation: flow 100s linear infinite reverse;
+    white-space: nowrap;
+    opacity: 80%;
+    /* 한줄을 그대로 보존해 주는 것 */
+    
+}
+
+.track3 {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    animation: flow 100s linear infinite reverse;
+    white-space: nowrap;
+    opacity: 80%;
+    /* 한줄을 그대로 보존해 주는 것 */
+   
+}
+
+@keyframes flow {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.our_section2 {
+    height: 1183px;
+    letter-spacing: 3px;
+}
+
+.content_2 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_flow_2 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_2_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+
+.our_section3 {
+    height: 1183px;
+    letter-spacing: 3px;
+}
+
+.content_3 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_flow_3 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_3_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+/* 오른쪽 이미지 효과 */
+
+.our_right_img {
+    transform: rotateY(90deg); /* 초기 상태로 플립된 상태 */
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 1.5s ease; /* 부드러운 애니메이션 전환 (1.5초로 늘림) */
+}
+
+.our_right_img.visible {
+    transform: rotateY(0deg); /* 정면을 보이도록 회전 */
+    opacity: 1;
+}
+
+/* 왼쪽 이미지 효과 */
+
+.our_right_img {
+    transform: rotateY(90deg); /* 초기 상태로 플립된 상태 */
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 1.5s ease; /* 부드러운 애니메이션 전환 (1.5초로 설정) */
+}
+
+.our_right_img.visible {
+    transform: rotateY(0deg); /* 정면을 보이도록 회전 */
+    opacity: 1;
+}
+
+.our_left_img {
+    transform: translateX(-50px); /* 왼쪽에서 이동 */
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 1.5s ease; /* 부드러운 애니메이션 전환 */
+}
+
+.our_left_img.fade-in {
+    transform: translateX(0); /* 원래 위치로 이동 */
+    opacity: 1;
+}
+
+
+
+
+/* our service 끝 */
+
+/* 푸터펄스트 시작*/
+#footer_fst {
+    margin-top: 65px;
+    height: 1031px;
+    background-color: #000;
+}
+
+.footer_fst_center {
+    width: 1400px;
+    height: 1031px;
+    margin: 0 auto;
+    background-image: url(../image/footer_background.png);
+    background-repeat: no-repeat;
+    padding-top: 372px;
+    box-sizing: border-box;
+
+}
+
+.footer_fst_center h1 {
+    color: #fff;
+    font-size: 120px;
+    text-align: center;
+}
+
+#footer_fst .footer_fst_center h1 span {
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#footer_fst .footer_fst_center h1 span:hover {
+    transform: translateY(-10px);
+    /* 텍스트가 위로 올라가는 효과 */
+    
+    /* 원하는 색상으로 변경 */
+}
+
+
+/* .footer_fst_center{width: 1400px;
+height: 1031px;
+margin: 0 auto;
+background-image: url(../image/footer_background.png);
+background-repeat: no-repeat;} */
+#footer_snd {
+    height: 522px;
+    background-color: #000;
+}
+
+.footer_snd_center {
+    width: 1400px;
+    height: 522px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.f_address,
+.f_business,
+.f_mgnt,
+.f_tel {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.f_address,
+.f_business,
+.f_mgnt {
+    margin-bottom: 15px;
+}
+
+.f_tel {
+    margin-bottom: 43px;
+}
+
+.personal,
+.copyright {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.personal {
+    margin-bottom: 13px;
+}
+
+.f_logo {
+    margin-top: 143px;
+    margin-bottom: 31px;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    position: absolute;
+    top: 58px;
+    right: 13px;
+    color: #ddd;
+}
+
+.icon2 {
+    right: 76px;
+}
+
+.icon3 {
+    right: 139px;
+}
+
+.icon4 {
+    right: 202px;
+}
+
+.icon1:hover {
+    transform: 1.1em;
+}
+
+.footer_snd_center a img {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.footer_snd_center a:hover img {
+    transform: scale(1.1); /* 크기를 10% 확대 */
+    filter: brightness(1.3); /* 색상을 밝게 */
+}
+
